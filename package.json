@@ -1,0 +1,16 @@
+{
+  "name": "demoqa-cypress-automation",
+  "version": "1.0.0",
+  "description": "Senior SDET Cypress automation framework for demoqa.com",
+  "private": true,
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "cypress run --browser chrome --headless",
+    "test:headed": "cypress run --browser chrome --headed",
+    "test:electron": "cypress run --browser electron --headless"
+  },
+  "devDependencies": {
+    "cypress": "^13.15.1"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "minimalStudent": {
+    "firstName": "Leandro",
+    "lastName": "Ferre",
+    "gender": "Female",
+    "mobile": "9876543210"
+  },
+  "comprehensiveStudent": {
+    "firstName": "Lean",
+    "lastName": "Fe",
+    "email": "leandro.f@email.com",
+    "gender": "Male",
+    "mobile": "1234567890",
+    "subjects": ["Maths", "Computer Science"],
+    "hobbies": ["Sports", "Reading"],
+    "currentAddress": "124 Innovation Way, Suite 400",
+    "state": "NCR",
+    "city": "Delhi"
+  },
+  "invalidStudent": {
+    "firstName": "",
+    "lastName": "",
+    "email": "no.,-mail",
+    "mobile": "123"
+  }
+}
